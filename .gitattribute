@@ -4,7 +4,7 @@
 ios/** linguist-detectable=false
 android/** linguist-detectable=false
 windows/** linguist-detectable=false
-build/** linguist-detectable=false
+
 
 # Dart Code
 lib/** linguist-language=Dart
@@ -14,6 +14,7 @@ test/** linguist-language=Dart
 *.lock linguist-language=Dart
 test/** linguist-language=Dart
 *.cmake linguist-language=Dart
+build/** linguist-detectable=Dart
 windows/runner/CMakeLists.txt linguist-language=Dart
 
 # Optionally include CMake, Swift, HTML only if needed:

@@ -14,9 +14,10 @@ test/** linguist-language=Dart
 *.lock linguist-language=Dart
 test/** linguist-language=Dart
 *.cmake linguist-language=Dart
+windows/runner/CMakeLists.txt linguist-language=Dart
 
 # Optionally include CMake, Swift, HTML only if needed:
-windows/runner/CMakeLists.txt linguist-language=CMake
+
 
 
 ios/Runner/** linguist-language=Swift
